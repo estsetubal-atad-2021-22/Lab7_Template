@@ -25,7 +25,7 @@
 
 ### Nível 2 (Duração estimada: ~ 15min)
 
-4. Implemente a função `PtFortniteItem fortniteItemSearch(const char* name, PtList shop)` que devolve o *endereço* do item com o nome `name`; devolve `NULL` se não existir. Teste esta função no `main`.
+4. Implemente a função `int fortniteItemSearch(const char* name, PtList shop)` que devolve o *índice* do item com o nome `name`; devolve `-1` se não existir. Teste esta função no `main`, mostrando a informação completa do item pesquisado.
 
 ### Nível 3 (Duração estimada: ~ 15min)
 
@@ -37,7 +37,7 @@
 
 7. Implemente a função `PtList fortniteFindItemsPriceRange(PtList shop, int min, int max)` que:
 
-	- Devolve por retorno uma nova lista contendo uma cópia dos items cujo preço se encontra em `[min, max]`; devolve `NULL` se `shop == NULL`. Se não houver nenhum item dentro do intervalo, devolve uma lista sem elementos.
+	- Devolve por retorno uma nova lista contendo uma cópia dos items cujo preço se encontra em `[min, max]`; devolve `NULL` se `shop == NULL`. Se não houver nenhum item dentro do intervalo, devolve uma lista sem elementos (vazia).
 	
 8. No `main` solicite ao utilizador um intervalo de preços e proceda à compra dos items encontrados nesse intervalo. Os items devem ser marcados como comprados na lista/loja inicial (não a cópia).
 

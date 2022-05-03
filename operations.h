@@ -32,22 +32,19 @@ PtList fortniteLoadShop();
 //---------------
 
 //Nível 1
-//bool fortniteItemBuy(const char* name, FortniteItem arr[], int arrLength);
+//bool fortniteItemBuy(const char* name, PtList shop);
 
 //Nível 2
-//PtFortniteItem fortniteItemSearch(const char* name, FortniteItem arr[], int arrLength);
+//int fortniteItemSearch(const char* name, PtList shop);
 
 //Nível 3
-//FortniteItem* fortniteArrayCopy(FortniteItem arr[], int arrLength);
+//PtList fortniteShopCopy(PtList shop);
 
 //Nível 4
-//FortniteItem* fortniteFindFreeItems(FortniteItem arr[], int arrLength, int *itemSize);
-//adaptação - critério de seleção
-//FortniteItem* fortniteFindRarityItems(FortniteItem arr[], int arrLength, const char* rarity, int *itemSize);
-
+//PtList fortniteFindItemsPriceRange(PtList shop, int min, int max);
 
 //Nível 5
-//bool fortniteAddNewItem(FortniteItem item, FortniteItem *arr[], int *pArrLength);
+//void forniteSortByName(PtList shop, bool ascending);
 
 
 
